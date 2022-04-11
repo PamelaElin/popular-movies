@@ -1,0 +1,18 @@
+.movieBox {
+  display: grid;
+  color: rgb(255, 255, 255);
+  min-height: 460px;
+  background: rgb(51,61,61);
+ 
+}
+.overview {
+  height: 450px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.movieBox:hover {
+	cursor: pointer;
+	background: rgba(87, 9, 154, 1) 100%;
+	color: #000;
+	transition: border 300ms;
+}
