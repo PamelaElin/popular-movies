@@ -20,7 +20,7 @@ const Modal = ({ title, img, overview, releaseDate, id }) => {
 						<div className='modal-body img_backdrop'>
 							<img src={img} alt='imageFilm' />
 							<p>{overview}</p>
-							<span>{releaseDate}</span>
+							<span>Release Date: {releaseDate}</span>
 						</div>
 						<div className='modal-footer'>
 							<button
