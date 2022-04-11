@@ -11,7 +11,7 @@ const Header = ({ value, onSubmit, onChange,onClickApp,valueApp}) => {
           <div className="d-flex justifiy-content-start align-items-center" onClick={onClickApp} value={valueApp} >
             <Icon/> 
         <label >
-          App Movies
+          Home
           </label>
           </div>
         
